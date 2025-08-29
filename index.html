@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Majeed - Civil Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      color: #2c3e50;
+    }
+
+    p, li {
+      font-size: 1rem;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin: 5px 0 15px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #f1c40f;
+    }
+
+    section {
+      padding: 50px 20px;
+      background: white;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1100px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* Experience Cards */
+    .exp-card {
+      background: #ecf0f1;
+      padding: 20px;
+      margin: 15px 0;
+      border-left: 6px solid #3498db;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .exp-card:hover {
+      transform: translateX(5px);
+    }
+
+    /* Project Gallery */
+    .gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+    }
+
+    /* Videos */
+    .videos video {
+      height: 380px;
+      width: 460px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      transition: transform 0.4s;
+    }
+
+    .videos video:hover {
+      transform: scale(1.03);
+    }
+
+    /* Skills */
+    #skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      list-style: none;
+      padding: 0;
+    }
+
+    #skills li {
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 1.05rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    #skills li:hover {
+      background: #3498db;
+      color: white;
+      transform: translateY(-5px);
+    }
+
+    /* Contact */
+    #contact {
+      text-align: center;
+    }
+
+    #contact a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    #contact a:hover {
+      color: #2c3e50;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 20px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <!-- PROFILE -->
+<section id="profile">
+  <div class="profile-container">
+    <img src="images/profile.jpg" alt="MD Majeed Profile Picture" class="profile-pic">
+    <div class="profile-info">
+      <h2>Hello, I’m <span>MD Majeed</span></h2>
+      <p>A passionate <strong>Civil Engineer</strong> with expertise in interior design and project management. I love creating modern, aesthetic, and functional spaces with attention to detail and high-quality execution.</p>
+      
+    </div>
+  </div>
+</section>
+
+    <h1>MD MAJEED</h1>
+    <p>Civil Engineer | Interior Specialist</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Dynamic civil engineer with three years of site and interior experience in Oman and India, proficient in supervision, project execution, drawing preparation, material estimation, and overseeing high-quality construction works.Committed to safety, technical innovation, and performance excellence across residential, commercial, and luxury interiors.</p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="exp-card">
+      <h3>SAMA International Trading & Contracting</h3>
+      <p>Civil Engineer | Muscat, Oman | 2021–2022</p>
+    </div>
+    <div class="exp-card">
+      <h3>BGR Construction</h3>
+      <p>Site Engineer, Interior Incharge | Hyderabad | 2022–2024</p>
+    </div>
+    <div class="exp-card">
+      <h3>Harsh Interior</h3>
+      <p>Interior Site Incharge | Hyderabad | Jan 2024–Present</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS with PHOTOS & VIDEOS -->
+  <section id="projects">
+    <h2>Project Showcase</h2>
+
+    <h3>Modern Bedroom Interior</h3>
+    <div class="gallery">
+      <img src="images/project1.jpg" alt="Modern Bedroom Interior">
+      <img src="images/project11.jpg" alt="Modern Bedroom Interior">
+    </div>
+
+    <h3>Wall Panelling/Fabric Panelling</h3>
+    <div class="gallery">
+      <img src="images/wall1.jpg" alt="Wall Panelling/Fabric Panelling">
+      <img src="images/wall2.jpg" alt="Wall Panelling/Fabric Panelling">
+      <img src="images/wall3.jpg" alt="Wall Panelling/Fabric Panelling">
+      <img src="images/fabric1.jpg" alt="Wall Panelling/Fabric Panelling">
+      <img src="images/fabric2.jpg" alt="Wall Panelling/Fabric Panelling">
+      <img src="images/fabric3.jpg" alt="Wall Panelling/Fabric Panelling">
+    </div>
+    
+    <h3>Painting Work and Texture Work</h3>
+    <div class="gallery">
+      <img src="images/paint1.jpg" alt="Painting Work and Texture Work">
+      <img src="images/paint2.jpg" alt="Painting Work and Texture Work">
+      <img src="images/text1.jpg" alt="Painting Work and Texture Work">
+    </div>
+
+    <h3>Marble Work</h3>
+    <div class="gallery">
+      <img src="images/marble2.jpg" alt="Marble Work">
+      <img src="images/marble1.jpg" alt="Marble Work">
+    </div>
+
+    <!--videos section start-->
+    <h3>Videos</h3>
+    <div class="videos">
+      <video width="320" controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video>
+      <video width="320" controls>
+        <source src="videos/video2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>AutoCAD – Civil & Architectural Design</li>
+      <li>SketchUp – 3D Modeling & Elevation</li>
+      <li>V-Ray – Rendering & Visualizations</li>
+      <li>MS Office – Excel, Word, PowerPoint</li>
+      <li>Rate Analysis & Quantity Surveying</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📞 Mobile: <a href="tel:+917829169151">+91 7829169151</a></p>
+    <p>📧 Email: <a href="mailto:mmajeed1999@gmail.com">mmajeed1999@gmail.com</a></p>
+    <p>📍 Address: Sangmeshwar Colony, Bidar, Karnataka</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 MD Majeed | Civil Engineer</p>
+  </footer>
+
+</body>
+</html>
